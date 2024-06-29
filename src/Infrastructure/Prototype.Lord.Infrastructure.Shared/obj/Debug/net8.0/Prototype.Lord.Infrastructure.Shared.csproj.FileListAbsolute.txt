@@ -1,0 +1,17 @@
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\obj\Debug\net8.0\Prototype.Lord.Infrastructure.Shared.csproj.AssemblyReference.cache
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\obj\Debug\net8.0\Prototype.Lord.Infrastructure.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\obj\Debug\net8.0\Prototype.Lord.Infrastructure.Shared.AssemblyInfoInputs.cache
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\obj\Debug\net8.0\Prototype.Lord.Infrastructure.Shared.AssemblyInfo.cs
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\obj\Debug\net8.0\Prototype.Lord.Infrastructure.Shared.csproj.CoreCompileInputs.cache
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\bin\Debug\net8.0\Prototype.Lord.Infrastructure.Shared.deps.json
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\bin\Debug\net8.0\Prototype.Lord.Infrastructure.Shared.dll
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\bin\Debug\net8.0\Prototype.Lord.Infrastructure.Shared.pdb
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\bin\Debug\net8.0\Prototype.Lord.Application.dll
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\bin\Debug\net8.0\Prototype.Lord.Domain.dll
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\bin\Debug\net8.0\Prototype.Lord.Application.pdb
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\bin\Debug\net8.0\Prototype.Lord.Domain.pdb
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\obj\Debug\net8.0\Prototype.Lord.Infrastructure.Shared.csproj.CopyComplete
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\obj\Debug\net8.0\Prototype.Lord.Infrastructure.Shared.dll
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\obj\Debug\net8.0\refint\Prototype.Lord.Infrastructure.Shared.dll
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\obj\Debug\net8.0\Prototype.Lord.Infrastructure.Shared.pdb
+D:\Personal\prototype-api\src\Infrastructure\Prototype.Lord.Infrastructure.Shared\obj\Debug\net8.0\ref\Prototype.Lord.Infrastructure.Shared.dll
