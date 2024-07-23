@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\Prototype.Lord.Application\Prototype.Lord.Application.csproj" />
+    <ProjectReference Include="..\Prototype.Lord.Infrastructure.Persistance\Prototype.Lord.Infrastructure.Persistance.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2162,7 +2162,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
-          "Prototype.Lord.Application": "1.0.0"
+          "Prototype.Lord.Application": "1.0.0",
+          "Prototype.Lord.Infrastructure.Persistance": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Prototype.Lord.Infrastructure.Shared.dll": {}

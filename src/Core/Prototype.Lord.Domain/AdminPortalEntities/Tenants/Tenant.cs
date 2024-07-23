@@ -1,8 +1,11 @@
-﻿namespace Prototype.Lord.Domain.AdminPortalModels.Tenants
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Prototype.Lord.Domain.AdminPortalModels.Tenants
 {
-    public partial class Tenant : AuditableEntity
+    public partial class Tenant
     {
-        public Guid Id { get; set; }
+        [Key]
+        public int Id { get; set; }
         public string Name { get; set; }
         public string SubDomain { get; set; }
         public string StripeCustomerId { get; set; }

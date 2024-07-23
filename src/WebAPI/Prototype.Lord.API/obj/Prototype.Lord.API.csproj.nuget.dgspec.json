@@ -273,6 +273,9 @@
             "projectReferences": {
               "D:\\Personal\\prototype-api\\src\\Core\\Prototype.Lord.Application\\Prototype.Lord.Application.csproj": {
                 "projectPath": "D:\\Personal\\prototype-api\\src\\Core\\Prototype.Lord.Application\\Prototype.Lord.Application.csproj"
+              },
+              "D:\\Personal\\prototype-api\\src\\Infrastructure\\Prototype.Lord.Infrastructure.Persistance\\Prototype.Lord.Infrastructure.Persistance.csproj": {
+                "projectPath": "D:\\Personal\\prototype-api\\src\\Infrastructure\\Prototype.Lord.Infrastructure.Persistance\\Prototype.Lord.Infrastructure.Persistance.csproj"
               }
             }
           }

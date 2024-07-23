@@ -54,22 +54,22 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.Use(async (context, next) =>
-{
-    var configuration = context.RequestServices.GetRequiredService<IConfiguration>();
+//app.Use(async (context, next) =>
+//{
+//    var configuration = context.RequestServices.GetRequiredService<IConfiguration>();
 
-    // Get instance of TenantProviderService
-    var tenantProviderService = context.RequestServices.GetRequiredService<ITenantProviderService>();
+//    // Get instance of TenantProviderService
+//    var tenantProviderService = context.RequestServices.GetRequiredService<ITenantProviderService>();
 
-    // Get connection string based on referer
-    var connectionString = tenantProviderService.GetTenant();
+//    // Get connection string based on referer
+//    var connectionString = tenantProviderService.GetTenant();
 
-    // Set the retrieved connection string as the default connection string
-    var connectionStringSection = configuration.GetSection("ConnectionStrings");
-    connectionStringSection["DefaultConnection"] = connectionString.DbConnection;
+//    // Set the retrieved connection string as the default connection string
+//    var connectionStringSection = configuration.GetSection("ConnectionStrings");
+//    connectionStringSection["DefaultConnection"] = connectionString.DbConnection;
 
-    await next.Invoke();
-});
+//    await next.Invoke();
+//});
 
 app.UseHttpsRedirection();
 app.UseAuthentication();

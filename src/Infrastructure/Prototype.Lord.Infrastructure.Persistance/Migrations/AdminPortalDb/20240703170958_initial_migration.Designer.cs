@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Prototype.Lord.Infrastructure.Persistance.Context;
 
@@ -11,9 +12,11 @@ using Prototype.Lord.Infrastructure.Persistance.Context;
 namespace Prototype.Lord.Infrastructure.Persistance.Migrations.AdminPortalDb
 {
     [DbContext(typeof(AdminPortalDbContext))]
-    partial class AdminPortalDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240703170958_initial_migration")]
+    partial class initial_migration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

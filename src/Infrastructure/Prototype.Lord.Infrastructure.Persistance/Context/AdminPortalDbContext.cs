@@ -48,6 +48,7 @@ public partial class AdminPortalDbContext : DbContext, IAdminPortalDbContext
     public Tenant GetTenant(string domain)
     {
         var tenant = Tenants.FirstOrDefault(t => t.SubDomain == domain && t.IsActive);
+        tenant = new Tenant { Id = 1, Name = domain };
         return tenant ?? null;
     }
 

@@ -25,4 +25,8 @@
     <ProjectReference Include="..\Prototype.Lord.Domain\Prototype.Lord.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Handlers\Tenants\Queries\" />
+  </ItemGroup>
+
 </Project>
