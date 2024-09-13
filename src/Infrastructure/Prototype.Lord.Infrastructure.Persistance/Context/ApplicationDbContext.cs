@@ -1,15 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Prototype.Lord.Application.Interfaces;
 using Prototype.Lord.Domain;
-using Prototype.Lord.Domain.BizVueModels;
-using Prototype.Lord.Domain.BizVueModels.Projects;
-using Prototype.Lord.Domain.BizVueModels.Tasks;
+using Prototype.Lord.Domain.Entities;
 using Prototype.Lord.Domain.Interfaces;
 using System.Reflection;
 
 namespace Prototype.Lord.Infrastructure.Persistance.Context;
 
-public partial class ApplicationDbContext : DbContext, IApplicationDbContext
+public partial class ApplicationDbContext : IdentityDbContext<AppUser, AppRole, Guid>, IApplicationDbContext
 {
     private readonly ICurrentUserService _currentUserService;
     private readonly Domain.AdminPortalModels.Tenants.Tenant _tenant;
@@ -39,11 +38,6 @@ public partial class ApplicationDbContext : DbContext, IApplicationDbContext
 
         return base.SaveChangesAsync(cancellationToken);
     }
-
-    public virtual DbSet<AspNetUsers> AspNetUsers { get; set; }
-    public virtual DbSet<Project> Projects { get; set; }
-    public virtual DbSet<Tasks> Tasks { get; set; }
-    public virtual DbSet<OrganizationalStandard> OrganizationalStandards { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

@@ -1,16 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Prototype.Lord.Domain.BizVueModels;
-using Prototype.Lord.Domain.BizVueModels.Projects;
-using Prototype.Lord.Domain.BizVueModels.Tasks;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Prototype.Lord.Domain.Entities;
 
 namespace Prototype.Lord.Application.Interfaces;
 
 public interface IApplicationDbContext
 {
     Task<int> SaveChangesAsync(CancellationToken cancellationToken);
-
-    DbSet<AspNetUsers> AspNetUsers { get; set; }
-    DbSet<Project> Projects { get; set; }
-    DbSet<Tasks> Tasks { get; set; }
-    DbSet<OrganizationalStandard> OrganizationalStandards { get; set; }
+    public DbSet<AppUser> Users { get; set; }
+    public DbSet<AppRole> Roles { get; set; }
+    public DbSet<IdentityUserRole<Guid>> UserRoles { get; set; }
 }

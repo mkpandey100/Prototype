@@ -1,0 +1,13 @@
+D:\Personal\prototype-api\src\Core\Prototype.Lord.Domain\bin\Debug\net8.0\Prototype.Lord.Domain.deps.json
+D:\Personal\prototype-api\src\Core\Prototype.Lord.Domain\bin\Debug\net8.0\Prototype.Lord.Domain.dll
+D:\Personal\prototype-api\src\Core\Prototype.Lord.Domain\bin\Debug\net8.0\Prototype.Lord.Domain.pdb
+D:\Personal\prototype-api\src\Core\Prototype.Lord.Domain\obj\Debug\net8.0\Prototype.Lord.Domain.csproj.AssemblyReference.cache
+D:\Personal\prototype-api\src\Core\Prototype.Lord.Domain\obj\Debug\net8.0\Prototype.Lord.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\prototype-api\src\Core\Prototype.Lord.Domain\obj\Debug\net8.0\Prototype.Lord.Domain.AssemblyInfoInputs.cache
+D:\Personal\prototype-api\src\Core\Prototype.Lord.Domain\obj\Debug\net8.0\Prototype.Lord.Domain.AssemblyInfo.cs
+D:\Personal\prototype-api\src\Core\Prototype.Lord.Domain\obj\Debug\net8.0\Prototype.Lord.Domain.csproj.CoreCompileInputs.cache
+D:\Personal\prototype-api\src\Core\Prototype.Lord.Domain\obj\Debug\net8.0\Prototype.Lord.Domain.sourcelink.json
+D:\Personal\prototype-api\src\Core\Prototype.Lord.Domain\obj\Debug\net8.0\Prototype.Lord.Domain.dll
+D:\Personal\prototype-api\src\Core\Prototype.Lord.Domain\obj\Debug\net8.0\refint\Prototype.Lord.Domain.dll
+D:\Personal\prototype-api\src\Core\Prototype.Lord.Domain\obj\Debug\net8.0\Prototype.Lord.Domain.pdb
+D:\Personal\prototype-api\src\Core\Prototype.Lord.Domain\obj\Debug\net8.0\ref\Prototype.Lord.Domain.dll

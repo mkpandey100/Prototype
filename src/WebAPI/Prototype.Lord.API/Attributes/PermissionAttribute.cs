@@ -48,7 +48,7 @@ public class PermissionAttribute : TypeFilterAttribute
             var user = context.HttpContext.User;
             Guid userId = Guid.TryParse(user.FindFirst(Constants.JwtId).Value, out Guid usId) ? usId : Guid.Empty;
 
-            var loggedInUser = await _dbContext.AspNetUsers.Where(x => x.Id == userId).FirstOrDefaultAsync();
+            var loggedInUser = await _dbContext.Users.Where(x => x.Id == userId).FirstOrDefaultAsync();
 
             if (loggedInUser is null) ReturnStatus(context, (int)HttpStatusCode.Unauthorized);
 

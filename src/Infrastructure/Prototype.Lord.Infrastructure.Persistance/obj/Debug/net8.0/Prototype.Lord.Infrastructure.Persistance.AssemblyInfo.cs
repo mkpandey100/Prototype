@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Prototype.Lord.Infrastructure.Persistance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20a8fc43d7a063008618f28150218edf8c9d921b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6e66123a19afe1c582a23a3dd946a74b88bd95e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Prototype.Lord.Infrastructure.Persistance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Prototype.Lord.Infrastructure.Persistance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
